@@ -1,0 +1,313 @@
+
+
+<!DOCTYPE html>
+<!-- Asig6-Solucion-html-2 -->
+<html lang="es">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <!-- Adaptación básica a pantallas de celular -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción al Desarrollo Web - Universidad Tecnológica de Panamá</title>
+</head>
+
+<body>
+
+    <!-- ===================== 1. ENCABEZADO Y PRESENTACIÓN ===================== -->
+    <header id="inicio">
+ 
+        <h1>Universidad Tecnológica de Panamá</h1>
+
+        <h2>Introducción al Desarrollo Web</h2>
+
+        <!-- Párrafo introductorio sobre el curso -->
+        <p>
+            Bienvenido al curso <strong>Introducción al Desarrollo Web</strong>. Aquí vas a conocer
+            los conceptos básicos para crear páginas y aplicaciones que funcionan en internet:
+            cómo se estructura una página con HTML, cómo viaja la información entre el navegador
+            y el servidor, y cuáles son las diferencias entre los distintos tipos de sitios.
+            <br>
+            Al terminar, vas a poder construir tu primera página web y publicarla en línea.
+        </p>
+    </header>
+
+    <!-- Menú de navegación con enlaces internos a cada sección -->
+    <nav>
+        <p>
+            <a href="#contenido">Contenido</a> |
+            <a href="#multimedia">Multimedia</a> |
+            <a href="#enlaces">Enlaces</a> |
+            <a href="#inscripcion">Inscripción</a> |
+            <a href="#tabla">Tabla de tipos de página</a>
+        </p>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <!-- ===================== 2. CONTENIDO EXPLICATIVO ===================== -->
+        <section id="contenido">
+            <h1>Conceptos básicos del desarrollo web</h1>
+
+      
+            <h2>¿Qué es una página web?</h2>
+            <p>
+                Una página web es un documento digital escrito en HTML que se puede ver desde un
+                navegador (Chrome, Firefox, Edge, etc.). Puede contener texto, imágenes, videos,
+                audio, enlaces y formularios. Un conjunto de páginas relacionadas, que comparten
+                un mismo dominio, forma un sitio web.
+            </p>
+
+            <!-- ¿Cómo funcionan? -->
+            <h2>¿Cómo funcionan las páginas web?</h2>
+            <p>
+                Las páginas web funcionan con el modelo <strong>cliente-servidor</strong>:
+            </p>
+            <h3>1. El cliente hace una solicitud</h3>
+            <p>
+                Cuando escribes una dirección (URL) en el navegador, este envía una solicitud
+                al servidor donde está guardada la página.
+            </p>
+            <h3>2. El servidor responde</h3>
+            <p>
+                El servidor busca los archivos pedidos (HTML, imágenes, etc.) y los devuelve
+                al navegador mediante el protocolo HTTP o HTTPS.
+            </p>
+            <h3>3. El navegador muestra la página</h3>
+            <p>
+                El navegador interpreta el código HTML recibido y lo convierte en la página que
+                ves en pantalla.
+            </p>
+
+            <!-- Tipos de páginas -->
+            <h2>Tipos de páginas web</h2>
+            <h3>Páginas estáticas</h3>
+            <p>
+                Muestran siempre el mismo contenido a todos los visitantes. Están hechas con
+                archivos HTML ya escritos y solo cambian si el desarrollador las edita.
+                <br>
+                Son rápidas, sencillas y baratas de publicar.
+            </p>
+            <h3>Páginas dinámicas</h3>
+            <p>
+                Generan su contenido al momento de la solicitud, normalmente usando un lenguaje
+                del lado del servidor y una base de datos. Pueden mostrar información distinta
+                según el usuario, la hora o las acciones realizadas.
+                <br>
+                Ejemplos: redes sociales, tiendas en línea, portales de noticias.
+            </p>
+
+            <!-- Diferencia entre aplicación web y sitio web -->
+            <h2>Diferencia entre una aplicación web y un sitio web</h2>
+            <h3>Sitio web</h3>
+            <p>
+                Su objetivo principal es <strong>informar</strong>. El usuario lee y navega el
+                contenido, con poca interacción. Por ejemplo, la página de una universidad o
+                un blog.
+            </p>
+            <h3>Aplicación web</h3>
+            <p>
+                Su objetivo principal es que el usuario <strong>realice tareas</strong>:
+                iniciar sesión, procesar datos, comprar, editar documentos, etc. Requiere más
+                interacción y casi siempre usa un servidor y una base de datos. Por ejemplo,
+                un correo electrónico en línea o una plataforma de banca en línea.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- ===================== 3. ELEMENTOS MULTIMEDIA ===================== -->
+        <section id="multimedia">
+            <h1>Elementos multimedia</h1>
+
+            <!-- Imagen representativa (ilustración SVG incrustada-->
+            <h2>Imagen representativa</h2>
+            <img alt="Ilustración de una página web con la etiqueta HTML" width="300" height="200"
+                src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23f2f2f2'/%3E%3Crect x='20' y='20' width='260' height='160' rx='8' fill='white' stroke='%23333' stroke-width='3'/%3E%3Crect x='20' y='20' width='260' height='28' rx='8' fill='%23333'/%3E%3Ccircle cx='38' cy='34' r='5' fill='%23e74c3c'/%3E%3Ccircle cx='56' cy='34' r='5' fill='%23f1c40f'/%3E%3Ccircle cx='74' cy='34' r='5' fill='%232ecc71'/%3E%3Ctext x='150' y='115' font-family='monospace' font-size='36' text-anchor='middle' fill='%23e44d26'%3E%26lt;HTML%26gt;%3C/text%3E%3C/svg%3E">
+            <br>
+
+            <!-- Video de YouTube incrustado con iframe -->
+            <h2>Video sobre desarrollo web</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU"
+                title="Curso de HTML para principiantes" allowfullscreen>
+            </iframe>
+            <br>
+
+            <!-- Audio breve en formato mp3 (recurso libre) -->
+            <h2>Audio</h2>
+            <p>Escucha este audio de muestra:</p>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+             
+            </audio>
+        </section>
+
+        <hr>
+
+        <!-- ===================== 4. ENLACES ===================== -->
+        <section id="enlaces">
+            <h1>Enlaces</h1>
+
+            <!-- Enlace interno a otra sección de la misma página -->
+            <p>
+                Enlace interno:
+                <a href="#inscripcion">Ir directo al formulario de inscripción</a>
+            </p>
+
+            <!-- Enlace externo a un recurso -->
+            <p>
+                Enlace externo:
+                <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
+                    Descargar Visual Studio Code
+                </a> (editor de código recomendado para el curso)
+            </p>
+
+           
+            <p>
+                Contacto con el profesor:
+                <a href="mailto:alonso.gonzalez2@utp.ac.pa?subject=Consulta%20sobre%20Introducci%C3%B3n%20al%20Desarrollo%20Web">
+                    Enviar correo al profesor
+                </a>
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- ===================== 5. FORMULARIO ===================== -->
+        <section id="inscripcion">
+            <h1>Formulario de inscripción</h1>
+            <p>Completa tus datos para inscribirte en el curso.</p>
+
+            <form action="#" method="post">
+                <!-- fieldset y legend agrupan los campos del formulario -->
+                <fieldset>
+                    <legend>Datos del estudiante</legend>
+
+                    <!-- Campos de texto: nombre y apellido -->
+                    <p>
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej.: Mauricio" required>
+                    </p>
+                    <p>
+                        <label for="apellido">Apellido:</label><br>
+                        <input type="text" id="apellido" name="apellido" placeholder="Ej.: Torres" required>
+                    </p>
+
+                    <!-- Campo de contraseña (oculta los caracteres) -->
+                    <p>
+                        <label for="clave">Contraseña:</label><br>
+                        <input type="password" id="clave" name="clave" minlength="8" required>
+                    </p>
+
+                    <!-- Campo de correo electrónico (valida el formato) -->
+                    <p>
+                        <label for="correo">Correo electrónico:</label><br>
+                        <input type="email" id="correo" name="correo" placeholder="nombre@correo.com" required>
+                    </p>
+
+                    <!-- Campo de fecha de nacimiento -->
+                    <p>
+                        <label for="nacimiento">Fecha de nacimiento:</label><br>
+                        <input type="date" id="nacimiento" name="nacimiento" required>
+                    </p>
+
+                    <!-- Campo de cédula -->
+                    <p>
+                        <label for="cedula">Cédula:</label><br>
+                        <input type="text" id="cedula" name="cedula" placeholder="7-546-764"
+                            pattern="[0-9A-Za-z]{1,3}-[0-9]{1,4}-[0-9]{1,6}"
+                            title="Escribe la cédula con guiones, por ejemplo: 7-546-764" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Modalidad</legend>
+                  
+                    <p>
+                        <input type="radio" id="presencial" name="modalidad" value="presencial" required>
+                        <label for="presencial">Presencial</label>
+                        <br>
+                        <input type="radio" id="virtual" name="modalidad" value="virtual">
+                        <label for="virtual">Virtual</label>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comentarios</legend>
+                    <!-- Área de texto para comentarios -->
+                    <p>
+                        <label for="comentarios">Escribe tus comentarios:</label><br>
+                        <textarea id="comentarios" name="comentarios" rows="5" cols="40"
+                            placeholder="¿Algo que quieras contarnos?"></textarea>
+                    </p>
+                </fieldset>
+
+                <!-- Botones de enviar y resetear -->
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar datos</button>
+                </p>
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- ===================== 6. TABLA ===================== -->
+        <section id="tabla">
+            <h1>Tipos de página web</h1>
+
+            <!-- Tabla con 3 columnas y 4 filas (1 de encabezado + 3 de datos) -->
+            <table border="1" cellpadding="8" cellspacing="0">
+                <caption>Ejemplos de tipos de página web</caption>
+                <thead>
+                    <tr>
+                        <th>Tipo de Página Web</th>
+                        <th>Descripción</th>
+                        <th>Ejemplo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Estática</td>
+                        <td>Contenido fijo, hecho con HTML. Solo cambia si el desarrollador la edita.</td>
+                        <td>Página de presentación de un portafolio personal</td>
+                    </tr>
+                    <tr>
+                        <td>Dinámica</td>
+                        <td>El contenido se genera según el usuario o los datos guardados en una base de datos.</td>
+                        <td>Facebook, Instagram</td>
+                    </tr>
+                    <tr>
+                        <td>Aplicación web</td>
+                        <td>Permite al usuario realizar tareas e interactuar con datos.</td>
+                        <td>Google Docs, banca en línea</td>
+                    </tr>
+                    <tr>
+                        <td>Comercio electrónico</td>
+                        <td>Sitio para comprar y vender productos o servicios en línea.</td>
+                        <td>Amazon, Mercado Libre</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- ===================== PIE DE PÁGINA ===================== -->
+    <footer>
+        <!-- Enlace interno para volver al inicio de la página -->
+        <p><a href="#inicio">Volver arriba</a></p>
+        <p>
+            Universidad Tecnológica de Panamá - Facultad de Ingeniería de Sistemas Computacionales<br>
+            Desarrollo de Software V - Asig6-Solucion-html-2<br>
+            Realizado por: Belmaris Ifill y Emily Girón
+        </p>
+    </footer>
+
+</body>
+
+</html>
